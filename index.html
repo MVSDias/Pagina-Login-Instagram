@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Projeto-Instagram" content="A página de log in do Istagram. Projeto de estudo Html e Css.">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Projeto-Instagram</title>
+</head>
+<body>
+    <main class="principal">
+        <section class="principal-imagens">
+            <img class="principal-imagens-celular" src="./celular.png" alt="imagem-celular">
+            <img class="principal-imagens-fundo" src="./insta1.png" alt="imagem-garota-com-gato">
+            <img class="principal-imagens-fundo img-2" src="./insta2.png" alt="imagem-crianças-sorrindo">
+
+        </section>
+        <section class="principal-textos">
+            <img class="principal-textos-titulo" src="./insta-logo.png" alt="logo-título-instagram">
+            <input class="principal-textos-input" type="text" placeholder="Telefone, nome de usuário ou e-mail">
+            <input class="principal-textos-input" type="password" placeholder="Senha">
+            <button class="principal-textos-botao">Entrar</button>
+            <a class="principal-textos-link-face" href="#">Entrar com o Facebook</a>
+            <a class="principal-textos-link-senha" href="#">Esqueceu a senha?</a>
+        </section>
+    </main>
+    
+</body>
+
+<script>
+    let imagem = document.querySelector(".img-2")
+    /* document - chama o html / querySelector - procura por um item, que 
+    nesse caso é uma classe representada pelo "." antes do nome da classe.*/
+  
+    setInterval(() => {
+  
+      if (imagem.style.opacity == 0) {
+          imagem.style.opacity = 1
+      } else {
+          imagem.style.opacity = 0
+      }
+  
+  
+    }, 3000)/*cria um intervalo de tempo - 3000 = (3s)*/
+  
+  
+  </script>
+</html>

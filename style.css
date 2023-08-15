@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.principal-imagens {
+    position: relative;
+   
+}
+
+.principal-imagens-celular {
+    width: 450px;
+}
+
+.principal-imagens-fundo {
+    height: 526px;
+    position: absolute;
+    top: 21px;
+    left: 152px;
+    transition: 2s ease-in-out;
+   
+}
+
+
+
+.principal-textos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    width: 382px;
+    height: 395px;
+    padding: 40px;
+    
+}
+
+
+       
+
+.principal-textos-input {
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 10px;
+    
+}
+
+
+
+.principal-textos-botao {
+    background-color: #0095f6;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.principal-textos-link-face {
+    text-decoration: none;
+    color: #385185;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.principal-textos-link-senha {
+    text-decoration: none;
+    color: #385185;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 830px ){
+    .principal {
+        flex-direction: column-reverse;
+    }
+
+    .principal-imagens {
+        height: 60%;
+        padding: 10px;
+    }
+
+    .principal-textos {
+        width: 280px;
+    height: 280px;
+    padding: 28px;
+    margin: 15px 0;
+    }
+
+    .principal-textos-titulo {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .principal-textos-input {
+        height: 36px;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        margin-top: 10px;
+        
+    }
+    
+    
+    
+    .principal-textos-botao {
+        background-color: #0095f6;
+        height: 30px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    .principal-textos-link-face {
+        text-decoration: none;
+        color: #385185;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+       
+    }
+    
+    .principal-textos-link-senha {
+        text-decoration: none;
+        color: #385185;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+    
+    }
+
+    .principal-imagens-celular {
+        width:350px;
+        margin-top: 40px;
+    }
+    
+    .principal-imagens-fundo {
+        height: 415px;
+        position: absolute;
+        top: 65px;
+        left: 128px;
+        transition: 2s ease-in-out;
+       
+    }
+    
+}
+    
